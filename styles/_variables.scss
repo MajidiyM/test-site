@@ -1,0 +1,12 @@
+$mont: "Montserrat", sans-serif;
+
+@mixin gradient {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 28, 169, 1) 23%,
+        rgba(0, 91, 255, 1) 80%
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      
+}
