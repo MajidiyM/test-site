@@ -5,6 +5,41 @@ body {
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   max-width: 1440px;
+  margin: auto;
+}
+
+.global_button {
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.global_button a {
+  background: -webkit-gradient(linear, left top, right top, color-stop(23%, #ff1ca9), color-stop(80%, #005bff));
+  background: linear-gradient(90deg, #ff1ca9 23%, #005bff 80%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 15px;
+}
+
+.roadmap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.roadmap .network {
+  padding: 0 50px;
 }
 
 nav {
@@ -149,5 +184,63 @@ nav .nav-section .dropdown-trigger .sub-menu ul .sub-items a:hover {
   font-size: 24px;
   line-height: 29px;
   text-decoration: none;
+}
+
+main {
+  background-image: url(../img/indexPage/david.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+  padding: 0 15px;
+}
+
+main .main-title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 137px;
+  color: white;
+  width: 70%;
+}
+
+main .subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+main .subtitle span {
+  background: -webkit-gradient(linear, left top, right top, color-stop(23%, #ff1ca9), color-stop(80%, #005bff));
+  background: linear-gradient(90deg, #ff1ca9 23%, #005bff 80%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 52px;
+}
+
+main .quote {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  width: 60%;
+  padding-top: 15px;
+  margin-bottom: 5%;
+}
+
+main .quote p {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 39px;
+}
+
+main .quote span {
+  font-weight: normal;
+  font-size: 20px;
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */

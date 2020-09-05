@@ -1,0 +1,55 @@
+main {
+  background-image: url(../img/indexPage/david.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+  padding: 0 15px;
+
+  .main-title {
+    h1 {
+      font-family: $mont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 80px;
+      line-height: 137px;
+      color: white;
+      width: 70%;
+    }
+  }
+
+  .subtitle {
+    font-family: $mont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+
+    span {
+      @include gradient;
+      font-weight: bold;
+      font-size: 52px;
+    }
+  }
+
+  .quote {
+    font-family: $mont;
+    font-style: normal;
+    color: #ffffff;
+    width: 60%;
+    padding-top: 15px;
+    margin-bottom: 5%;
+
+    p {
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 39px;
+    }
+    span {
+      font-weight: normal;
+      font-size: 20px;
+      float: right;
+    }
+  }
+}
