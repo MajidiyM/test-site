@@ -36,6 +36,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 5%;
 }
 
 .roadmap .network {
@@ -200,7 +201,7 @@ main .main-title h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 80px;
-  line-height: 137px;
+  line-height: 100px;
   color: white;
   width: 70%;
 }
