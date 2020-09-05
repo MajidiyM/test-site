@@ -1,8 +1,33 @@
 body {
-    background: #000;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    font-family: $mont;
-    max-width: 1440px;
+  background: #000;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: $mont;
+  max-width: 1440px;
+  margin: auto;
 }
 
+.global_button {
+  border: 1px solid white;
+  border-radius: 50px;
+
+  a {
+    @include gradient;
+    font-family: $mont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 15px;
+  }
+}
+
+.roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .network {
+        padding: 0 50px;
+    }
+}
