@@ -187,7 +187,7 @@ nav .nav-section .dropdown-trigger .sub-menu ul .sub-items a:hover {
   text-decoration: none;
 }
 
-main {
+.main-section {
   background-image: url(../img/indexPage/david.png);
   height: 90vh;
   background-repeat: no-repeat;
@@ -196,7 +196,7 @@ main {
   padding: 0 15px;
 }
 
-main .main-title h1 {
+.main-section .main-title h1 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -206,7 +206,7 @@ main .main-title h1 {
   width: 70%;
 }
 
-main .subtitle {
+.main-section .subtitle {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -215,7 +215,7 @@ main .subtitle {
   color: #ffffff;
 }
 
-main .subtitle span {
+.main-section .subtitle span {
   background: -webkit-gradient(linear, left top, right top, color-stop(23%, #ff1ca9), color-stop(80%, #005bff));
   background: linear-gradient(90deg, #ff1ca9 23%, #005bff 80%);
   -webkit-text-fill-color: transparent;
@@ -224,7 +224,7 @@ main .subtitle span {
   font-size: 52px;
 }
 
-main .quote {
+.main-section .quote {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   color: #ffffff;
@@ -233,13 +233,13 @@ main .quote {
   margin-bottom: 5%;
 }
 
-main .quote p {
+.main-section .quote p {
   font-weight: bold;
   font-size: 25px;
   line-height: 39px;
 }
 
-main .quote span {
+.main-section .quote span {
   font-weight: normal;
   font-size: 20px;
   float: right;
